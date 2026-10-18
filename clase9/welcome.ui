@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>360</width>
-    <height>280</height>
+    <height>340</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Bienvenida</string>
+   <string>Bienvenida-Nelsi Ochoa</string>
   </property>
   <property name="toolTip">
    <string>Muestra un saludo</string>
@@ -90,6 +90,35 @@ font-weight: bold;
      </property>
     </widget>
    </item>
+   <item>
+    <widget class="Line" name="lineSeparador">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblContador">
+     <property name="text">
+      <string>Saludos: 0</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblAutor">
+     <property name="styleSheet">
+      <string notr="true">color:#777777;
+font-size: 11px;
+font-style: italic;</string>
+     </property>
+     <property name="text">
+      <string>Hecho por: Nelsi Rocio Ochoa Mamani</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignBottom|Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing</set>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <tabstops>
@@ -107,11 +136,11 @@ font-weight: bold;
    <hints>
     <hint type="sourcelabel">
      <x>244</x>
-     <y>180</y>
+     <y>151</y>
     </hint>
     <hint type="destinationlabel">
      <x>252</x>
-     <y>144</y>
+     <y>121</y>
     </hint>
    </hints>
   </connection>
