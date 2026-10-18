@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>333</width>
-    <height>196</height>
+    <width>360</width>
+    <height>310</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -84,7 +84,7 @@
     </widget>
    </item>
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QLabel" name="lblAutor">
      <property name="styleSheet">
       <string notr="true">color: #777777;
 font-size: 11px;
